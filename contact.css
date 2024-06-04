@@ -1,0 +1,141 @@
+body {
+    background-image: url('aboutbg.png');
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Times New Roman, sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;    
+    
+}
+
+ 
+        
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: 100%;
+    background-color: rgba(38, 4, 70, 0.727); 
+    padding: 20px;    
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: #370147;
+    padding: 15px 15px;
+    border-radius: 25px;
+}
+
+.header a:hover {
+    color: #333;
+}   
+
+#logo {
+    display: flex; 
+    align-items: center; 
+    width: 50%;
+    height: 10%;
+}
+
+.logo_image {
+    width: 20%;
+    padding: 5px;
+}
+
+#text {
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.title {
+    color: white;
+    font-size: 50px;
+    max-width: 100%;
+    padding: 5px;
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    font-family: Bluelmin Benedict, sans-serif;
+    color: white;
+    font-size: 100px;
+}
+
+.container {
+    position:absolute;
+    top: 47%;
+    display: flex; 
+    align-items:center; 
+    width: 100%;
+    height: 90px;
+    
+}
+
+#tot{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 4px;
+}
+@font-face {
+    font-family: 'Bluelmin Benedict';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bluelmin Benedict'), url('https://fonts.cdnfonts.com/s/47605/Bluelmin Benedict.woff') format('woff');
+}
+
+.contactForm{
+    background-position:center;
+    text-decoration-color: white;
+    font-size: 20px;
+    max-width: 40%;
+    padding: 20px;
+    width: 35%;
+    height: 80%;
+    margin-top: 3%;
+    margin-left: 33%;
+    align-items: center;
+    min-height: 60vh;
+    background-color: #9125acaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #500264c7;
+    border-radius: 10%;
+}
+
+/* Basic styles for the form */
+#contact-us-form {
+    width: 400px;
+    margin: 0 auto;
+    color: aliceblue;
+  }
+  /* Styles for the form fields */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: aliceblue;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical; /* Allow textarea to resize */
+  }
+  /* Styles for the submit button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;

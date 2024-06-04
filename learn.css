@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Times New Roman, sans-serif;
+    background: url('Maingif.gif') ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: 100%;
+    background-color: rgba(38, 4, 70, 0.727); 
+    padding: 30px; 
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: #370147;
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+
+.header a:hover {
+    color: #333;
+}
+
+#logo {
+    display: flex; 
+    align-items: center; 
+    width: 50%;
+    height: 10%;
+}
+
+
+
+#text {
+    display: flex;
+    flex-direction: column; 
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    max-width: 100%;
+    padding: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.line {
+    margin-bottom: 15%;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    font-family: Bluelmin Benedict, sans-serif;
+    color: white;
+    font-size: 90px;
+    color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+
+.home-section{
+    position: fixed;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%
+}
+
+.text_logo {
+    margin: 0;
+    font-family: Bluelmin Benedict, sans-serif;
+    font-size: 150px;
+    color:white;
+    letter-spacing: 15px;
+    -webkit-text-stroke: 3px rgba(0, 0, 0, 0.314);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #500853b7, 0 0 40px #4c144c, 0 0 50px #27042e, 0 0 60px #7c1297, 0 0 70px #4e084e;
+}
+
+.tag {
+    color: white;
+    margin: 0 0 20px;
+    font-size: 20px;
+}
+
+.home-section a {
+    background-color: #431988;
+    border: none;
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 25px;
+    
+}
+
+.home-section a:hover {
+    background-color: #4a0c5e;
+    color: #a15fc7;
+}
+@font-face {
+    font-family: 'Bluelmin Benedict';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bluelmin Benedict'), url('https://fonts.cdnfonts.com/s/47605/Bluelmin Benedict.woff') format('woff');
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: 100%;
+    padding: 30px; 
+    background-position:center;
+    text-decoration-color: white;
+    font-size: 20px;
+    max-width: 40%;
+    padding: 20px;
+    width: 35%;
+    height: 80%;
+    overflow-y: scroll;
+    scrollbar-color: rgba(127, 14, 172, 0.579) rgba(123, 6, 152, 0.458);
+    scrollbar-width: thin;
+    scroll-padding-inline-end: 2px;
+    margin-top: 10%;
+    margin-left: 33%;
+    align-items: center;
+    min-height: 60vh;
+    background-color: #9125acaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #500264c7;
+    border-radius: 10%;
+}
+
+.intro1{
+    scroll-margin-block-end: ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#
